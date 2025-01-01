@@ -29,10 +29,10 @@ jobs:
         echo
 
     - name: Free disk space
-      uses: sbwml/actions@free-disk
+      uses: oppen321/actions@free-disk
 
     - name: Build System Setup
-      uses: sbwml/actions@openwrt-build-setup
+      uses: oppen321/actions@openwrt-build-setup
 
     - name: Clone source code
       env: 
